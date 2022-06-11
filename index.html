@@ -49,10 +49,11 @@
     </div>
     <div class="paragraph">
         <h3>hello baby, how do you do?</h3>
-        <span id="text1" onmouseover="translate()"></span>
+        <span id="text1"></span>
     </div>
     <script>
-        function translate() {
+        document.getElementById('text1').onmouseover = function() {mouseOver()};
+        function mouseOver() {
             document.getElementById('text1').innerHTML = "Toh kaise hai aap log???";
             document.getElementById('text1').style.color = "red";
         }
