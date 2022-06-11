@@ -25,7 +25,6 @@
             justify-content: center;
         }
         .paragraph h3:hover{
-            content: "Toh kaise Hai aap log?";
             color: gray;
 
         }
@@ -50,7 +49,13 @@
     </div>
     <div class="paragraph">
         <h3>hello baby, how do you do?</h3>
+        <h2 id="text1" onmouseover="translate()"></h2>
     </div>
+    <script>
+        object.onmouseover = translate(){
+            document.getElementById('text1').innerHTML = "Toh kaise hai aap log???";
+        }
+    </script>
     
 </body>
 </html>
