@@ -5,62 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prashant Stha</title>
-    <style>
-        body{
-            background-color: darkgrey;
-            color: black;
-        }
-        .container{
-            display: inline-block;
-            block-size: 4fr;
-        }
-        .container .content{
-            margin: 5px 10px;
-            
-        }
-        .paragraph{
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-        }
-        .paragraph h3:hover{
-            color: gray;
-
-        }
-
-        h1{
-            font-size: 30px;
-            font-weight: 400;
-            color: blueviolet;
-        }
-        p{
-            color: brown;
-            font-family: 'Courier New', Courier, monospace;
-        }
-    </style>
 </head>
-<body>
-    <div class="container">
-        <div class="content">
-            <h1>Hello from the other side</h1>
-            <p>Nice meeting you.</p>
-        </div>
-    </div>
-    <div class="paragraph">
-        <h3>Hello, how are you??</h3><br/>
-    </div>
-    <div class="paragraph">
-
-        <span id="text1">Translate</span>
-    </div>
-    <script>
-        document.getElementById('text1').onmouseover = function() {mouseOver()};
-        function mouseOver() {
-            document.getElementById('text1').innerHTML = "Toh kaise hai aap log???";
-            document.getElementById('text1').style.color = "red";
-        }
-    </script>
+    <body class="d-flex h-100 text-center text-white bg-dark">
     
-</body>
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        
+          <main class="px-3">
+            <h1>Introduction</h1>
+            <p class="lead">Hey, its me Prashant Shrestha.</p>
+            <p class="lead">I am a CSIT student.</p>
+            <p class="lead">Its nice to meet you.</p>
+            
+          </main>
+        
+        </div>
+        </body>
 </html>
